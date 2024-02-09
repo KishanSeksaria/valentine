@@ -1,0 +1,83 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lovers Quarrel', cursive;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: linear-gradient(45deg, #ffcccc, #ffd9e6);
+	/* background-image: url('background.png'); */
+	background-size: cover;
+	background-position: center;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+	padding: 1em;
+	transition: all 1s;
+}
+
+.tenor-gif-embed,
+.tenor-gif-embed > * {
+	pointer-events: none;
+	width: 300px !important;
+}
+
+.hide {
+	display: none;
+}
+
+#message {
+	font-size: 5em;
+	text-align: center;
+	color: #ff6666;
+}
+
+#text p {
+	margin: 2.5em 0;
+}
+
+.buttons {
+	display: flex;
+	gap: 1em;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	font-size: 2em;
+	border: 1px solid #ff6666;
+	padding: 0.25em 1em;
+	border-radius: 2em;
+	background-color: transparent;
+	color: #ff6666;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+button:hover {
+	background-color: #ff6666;
+	color: white;
+}
+
+#yes {
+	background-color: #ff6666;
+	color: white;
+}
+
+#yes:hover {
+	transform: scale(1.1);
+}
