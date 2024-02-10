@@ -1,5 +1,5 @@
 const messages = [
-	"Hi! I'm Kishan",
+	"Hi! I'm Kishoon",
 	'I was a simple guy living my life',
 	'Running around looking for a perfect partner',
 	'But then I saw you Popluu',
